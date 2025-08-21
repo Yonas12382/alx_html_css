@@ -1,3 +1,4 @@
+@'
 /* Custom styles that can override base.css */
 
 /* Add some additional styling for a more polished look */
@@ -44,3 +45,4 @@ footer {
         margin: 5px 0;
     }
 }
+'@ | Set-Content -Path styles.css -Encoding UTF8
