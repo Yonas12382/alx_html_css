@@ -1,3 +1,4 @@
+@'
 /* Base styles that will be applied to all pages */
 
 /* Import a web-safe font */
@@ -143,3 +144,4 @@ blockquote.twitter-tweet {
     quotes: "\201C""\201D""\2018""\2019";
     border-radius: 5px;
 }
+'@ | Set-Content -Path base.css -Encoding UTF8
